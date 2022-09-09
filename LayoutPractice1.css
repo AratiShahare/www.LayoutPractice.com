@@ -13,15 +13,27 @@
 .menu{
     float:right;
     display: inline;
-    word-spacing:25px;
+    word-spacing:30px;
+    height: 70px;
+    margin-right: 100px;
+    margin-top: 30px;
 }
 .menu ul li{
     
-    font-size: 25px;
+    font-size: 15px;
     display: inline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 .menu ul li a{
     color: white;
     text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    float: left;
+    display: inline;
 }
