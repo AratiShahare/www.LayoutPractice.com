@@ -11,14 +11,16 @@
     background-position: cover;
 }
 .menu{
-    
+    float:right;
     display: inline;
+    word-spacing:25px;
 }
 .menu ul li{
-    float:right;
+    
     font-size: 25px;
     display: inline;
-}
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
 .menu ul li a{
     color: white;
     text-decoration: none;
