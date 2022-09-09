@@ -10,3 +10,15 @@
     background-repeat: no-repeat;
     background-position: cover;
 }
+.menu{
+    float: right;
+    display: inline;
+}
+.menu ul li{
+    float: left;
+    font-size: 25px;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+}
