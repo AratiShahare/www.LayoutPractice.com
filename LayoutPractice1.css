@@ -11,12 +11,13 @@
     background-position: cover;
 }
 .menu{
-    float: right;
+    
     display: inline;
 }
 .menu ul li{
-    float: left;
+    float:right;
     font-size: 25px;
+    display: inline;
 }
 .menu ul li a{
     color: white;
