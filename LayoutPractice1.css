@@ -11,12 +11,11 @@
     background-position: cover;
 }
 .menu{
-    float: right;
+   
     display: inline;
     word-spacing:30px;
     height: 70px;
-    margin-right: 100px;
-    margin-top: 30px;
+    
 }
 .menu ul li{
     
@@ -24,7 +23,11 @@
     display: inline;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
- 
+ .menu ul{
+    float: right;
+    margin-right: 100px;
+    margin-top: 30px;
+ }
 .menu ul li a{
     color: white;
     text-decoration: none;
@@ -38,4 +41,28 @@
     font-style: italic;
     float: left;
     display: inline;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.content h1{
+    color: white;
+    margin-top: 250px;
+    margin-left: 350px;
+    font-size: 65px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    position: absolute;
+}
+.content p{
+    color: white;  
+    margin-left: 390px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.alpha ul li{
+    display: inline;
+    color: white;
 }
