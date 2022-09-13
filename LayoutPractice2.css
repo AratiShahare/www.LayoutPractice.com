@@ -1,0 +1,80 @@
+body{
+    width: 90%;
+    margin: auto;
+}
+.header{
+    height: 60px;
+    width: 100%;
+}
+.logo{
+    width: 100%;
+    background-color:white;
+    height: 50px;
+}
+#logo1{
+    float: left;
+    height: 60px;
+    width: 10%;
+}
+#logo2{
+    float: right;
+    width: 10%;
+    height: 60px;
+}
+.list{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(103, 103, 235);
+}
+.list ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: blue;
+    height: 60px;
+    color: white;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+.notice{
+    margin-top:10px;
+    border:3px solid black;
+    text-align:center;
+    padding-bottom: 10px;
+    color: rgb(9, 9, 179);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    margin-top:140px;
+}
+.one{
+    width: 49%;
+    height: 480px;
+    background-color: aqua;
+    float: left;
+}
+.two{
+    width: 49%;
+    height: 480px;
+    background-color: rgb(99, 15, 125); 
+    float: right;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    text-align: center;
+}
+span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: 40%;
+    margin-top: -10px;
+    background-color:blue;
+    border-radius: solid; 
+    border-left:2px solid white;
+    border-top:2px solid white;
+}
